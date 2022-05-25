@@ -1,3 +1,7 @@
-# Files
+def find():
+    text = "X-DSPAM-Confidence:0.8475"
+    a =float(text[19:25])
+    return a
 
-filename = "dataset/mbox-short.txt"
+x=find()
+print(x)
